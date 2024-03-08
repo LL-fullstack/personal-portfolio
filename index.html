@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="lu">
+        <meta name="description" content="Personal Portfolio">
+        <meta name="keywords" content="html, css, web, web development, javascript">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+        <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+        <script src="./assets/script/app.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <nav id="nav-bar">
+                <div class="logo">Lu Liu</div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav id="hamburger-nav">
+                <div class="logo">Lu Liu</div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-links">
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>   
+                    </div>
+                </div>
+            </nav>
+        </main>
+    </body>
+</html>
