@@ -148,6 +148,10 @@ section {
     height: 80vh;
 }
 
+.profile-pic {
+    border-radius: 2rem;
+}
+
 .section__pic-container {
     display: flex;
     height: 400px;
@@ -176,7 +180,7 @@ section {
     margin-bottom: 1rem;
 }
 
-.title {
+.title1 {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
@@ -237,6 +241,74 @@ section {
     gap: 1rem;
 }
 
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.section__text_p1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.title2 {
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.section__pic-container {
+    flex: 1;
+    max-width: 300px;
+}
+
+.about-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.about-details-container {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.about-containers, .text-container {
+    width: 100%;
+}
+
+.details-container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 15px;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
 @media screen and (max-width: 1200px) {
     #nav-bar {
         display: none;
@@ -245,3 +317,4 @@ section {
         display: flex;
     }
 }
+
