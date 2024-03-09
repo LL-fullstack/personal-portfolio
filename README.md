@@ -2,7 +2,7 @@
 
 A portfolio web site made using html css and js.
 
-#### Visit here - [Lu Liu's GitHub Page](Link to be added)
+#### Visit here - [Lu Liu's GitHub Page](https://ll-fullstack.github.io/personal-portfolio/)
 
 <br>
 
@@ -10,7 +10,6 @@ A portfolio web site made using html css and js.
 
 <br>
 
-
-(image)
+![Portfolio Screenshot](./assets/images/portfolio-screenshot.png)
 
 
